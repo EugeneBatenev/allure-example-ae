@@ -31,7 +31,7 @@ jobs:
         with:
           allure-endpoint: https://testing.testops.cloud
           allure-token: ${{ secrets.TESTING_ALLURE_TOKEN }}
-          allure-project-id: 276
+          allure-project-id: 10950
           allurectl-version: 2.15.1
       
       - name: Triggered from GH dispatch
